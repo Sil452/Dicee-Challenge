@@ -1,3 +1,13 @@
+
+:root {
+  --green:#4ECCA3;
+  --white:#EEEEEE;
+}
+
+footer, p, button {
+  font-family: 'Indie Flower', cursive;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -7,11 +17,11 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
   background-color: #393E46;
+  text-align: center;
 }
 
 h1 {
@@ -19,23 +29,37 @@ h1 {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: var(--green);
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  color: var(--green);
 }
 
 img {
   width: 80%;
 }
 
+button{
+  margin-top: 40px;
+  width: 200px;
+  height: 50px;
+  background-color: var(--green);
+  color:var(--white);
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+button:hover{
+  border: 2px solid var(--green);
+  background-color: transparent;
+  cursor: pointer;
+}
+
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: var(--white);
   text-align: center;
-  font-family: 'Indie Flower', cursive;
-
 }
